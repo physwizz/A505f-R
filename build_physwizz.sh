@@ -2,7 +2,7 @@
 
 
 clear
-
+echo "physwizz build kernel shell script"
 export ARCH=arm64
 export PLATFORM_VERSION=11
 export ANDROID_MAJOR_VERSION=r
