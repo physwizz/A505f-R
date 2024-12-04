@@ -3,6 +3,9 @@
 
 clear
 
+export CROSS_COMPILE=/home/grahame/toolchains/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+export 
+CC=/home/grahame/toolchains/4639204/toolchain/clang/host/linux-x86/clang-4639204/bin/clang
 export ARCH=arm64
 export PLATFORM_VERSION=11
 export ANDROID_MAJOR_VERSION=r

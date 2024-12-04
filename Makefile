@@ -317,8 +317,7 @@ ARCH		?=arm64
 
 
 
-CROSS_COMPILE=/home/physwizz/toolchains/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
-
+CROSS_COMPILE=/home/grahame/toolchains/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
 
 # Architecture as present in compile.h
 UTS_MACHINE 	:= $(ARCH)
@@ -385,8 +384,7 @@ LDGOLD		= $(CROSS_COMPILE)ld.gold
 
 
 
-CC=/home/physwizz/toolchains/4639204/clang/host/linux-x86/clang-4639204/bin/clang
-
+CC=/home/grahame/toolchains/4639204/toolchain/clang/host/linux-x86/clang-4639204/bin/clang
 
 CPP		= $(CC) -E
 AR		= $(CROSS_COMPILE)ar
