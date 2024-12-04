@@ -317,7 +317,7 @@ ARCH		?=arm64
 
 
 
-CROSS_COMPILE=/home/grahame/toolchains/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+CROSS_COMPILE=/home/physwizz/toolchains/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
 
 
 # Architecture as present in compile.h
@@ -385,7 +385,7 @@ LDGOLD		= $(CROSS_COMPILE)ld.gold
 
 
 
-CC=/home/grahame/toolchains/prebuilts_clang_host_linux-x86_clang-4639204-master/bin/clang
+CC=/home/physwizz/toolchains/4639204/clang/host/linux-x86/clang-4639204/bin/clang
 
 
 CPP		= $(CC) -E
